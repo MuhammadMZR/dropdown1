@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body{
+    margin: 0;
+    padding: 0;
+}
+.maindiv{
+    background-color: gray;
+    padding: 15px;
+
+}
+a:hover{
+    background-color: white;
+    color: black;
+    margin: 10px;
+    padding: 30px;
+
+}
+.firstul li{
+    display: inline;
+    list-style-type: none;
+    padding: 15px;
+}
+li{
+    list-style-type: none;
+    font-size: 22px;
+}
+a{
+    text-decoration: none;
+}
+.drop ul li a{
+    display: block;
+
+}
+.drop{
+    position: relative;
+}
+.drop-company{
+    position: absolute;
+    left: 0px;
+    top: 50px;
+}
+.fahad-drop ul a{
+    position: relative;
+}
+.drop-down-fahad{
+    position: absolute;
+
+
+}
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="maindiv">
+        <ul class="firstul">
+            <li ><a href="">Home</a></li>
+            <li ><a href="">About us</a></li>
+            <li ><a href="">Contact us</a></li>
+            <li class="drop"><a href="">Company</a>
+                <ul class="drop-company"> 
+                    <li><a href="">Zohaib</a> </li>
+                    <li><a href="">Hamza</a> </li>
+                    <li class="fahad-drop"><a href="">fahad</a>
+                    <ul class="drop-down-fahad"> 
+                        <li><a href="">Male</a> </li>
+                        <li><a href="">Female</a> </li> 
+                    </ul>
+                    
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+
+    </div>
+</body>
+</html>
